@@ -1,8 +1,9 @@
-.App {
+App {
   text-align: center;
-}
-.Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  padding:0% 20%;
+  text-shadow: 1px 1px 5px rgb(255, 255, 255)
 }
 /* write your parent styles in here for your App.js */

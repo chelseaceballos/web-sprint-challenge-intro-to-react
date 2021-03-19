@@ -31,12 +31,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+ReactJS is a great way of dealing with large amounts of data that are constantly changing. For example, Twitter has users interacting with the DOM, clicking multiple things on the page, and constantly refreshing the app with new data from other users or media outlets. React JS solves large application issues such as dealing with large amounts of dynamic data resulting in better response times for users using the application.
 
 1. Describe component state.
+A component is a term to loosely describe a chunk of information on your page. For example, a header,paragraph, button etc. Each component has or can have one or multiple slices of state. It's important to import the useState hook from the React library to make the component state functional. By using useState you can effectively declare a component to have an 'initial' state example: const [count, SetCounter] = useState[0], by doing this the components state will now start at zero. On the other hand components can have the state of a number, boolean, array, or a string.
 
 1. Describe props.
+Props are used when you have a state inside one component and pass that information into another separate component. The main benefit of using props is reusability. It makes for less messy code and less lines of code having to be re-written the same way with only one or two words being different 
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+A side effect is anything that affects the data outside of the component. There are two types of side effects, those that need clean up an those that don't. The effect hook is used in React JS to tell React that it needs to run or execute an existing side effect. To avoid running an infinite loop and crashing the browser, you can sync side effects with state and prop changes
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

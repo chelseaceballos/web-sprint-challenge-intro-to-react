@@ -12,7 +12,7 @@ afterEach(() => {
 });
 
 describe("<App />", () => {
-  it("fetches characters from the Star Wars API and displays them", async () => {
+  it("fetch api data", async () => {
     render(<App />);
 
     expect(await screen.findByText("Luke Skywalker")).toBeInTheDocument();
